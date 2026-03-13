@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+        <!-- <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        
+        <title>{% block title %}Title{% endblock %}</title>
+    </head>
+    <body>
+        <div class="">
+            <div class="">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+        <!-- 
+        <footer class="">
+            <div class="">
+                <div class="">
+                    <div class="">
+                        <h5 class="">Mads</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam dolorem officiis id unde quod eligendi est exercitationem.
+                        </p>
+                    </div>
+
+                    <div class="">
+                        <h5 class="">Contakt</h5>
+                        <ul class="">
+                            <li><a href="#" class="">Email: info@mads.com</a></li>
+                            <li><a href="#" class="">Telefon: +45 1234 5678</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                &copy; 2024 Mads Overgård. Alle rettigheder forbeholdes.
+            </div>
+        </footer>
+    -->
+
+    </body>
+</html>

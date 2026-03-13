@@ -1,0 +1,26 @@
+.page-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    width:10%;
+    border: 1px solid black;
+}
+
+body {
+    background-image: url(matrix.png);
+}
+
+
+.outer {
+    width: 1000px;
+    height: 700px;
+    margin: 50px auto;
+    /* background-image: url(https://tubbywubbyponywaifu.neocities.org/homebg.gif); */
+    background-color: black;
+    border-color: #fa61c7;
+    border-style: Solid;
+    font-size: 17px;
+    font-family: cheri;
+    border-radius: 10px;
+    border-width: 6px;
+}
