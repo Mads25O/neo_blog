@@ -1,10 +1,21 @@
 {% extends 'base.html' %}
 {% block title %}Home{% endblock %}
 {% block content %}
-<div class="outer">
+<div class="page-container">
     <div class="top-bar">
-        <h1>HEYYYYY</h1>
-        <p>TESTTTTT BITCH</p>
+
+    </div>
+    <div class="post left">
+        <h1>Donec consectetur faucibus erat.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim neque, facilisis eu justo a, dictum dictum augue. Cras quis ipsum iaculis sem tempor sodales. Donec tincidunt tincidunt neque, sed interdum ipsum porttitor ut. Curabitur dignissim, arcu at vulputate volutpat, diam velit varius metus, eget pharetra magna purus nec tellus. Vivamus purus lectus, bibendum nec arcu ultrices, eleifend eleifend nisi. Suspendisse in sollicitudin magna. Phasellus scelerisque neque ac est suscipit accumsan. Cras a luctus ante. </p>
+        <hr>
+        <img src="{{ url_for('static', filename='comment.svg') }}" alt="Comment">
+    </div>
+    <div class="post right">
+        <h1>Donec consectetur faucibus erat.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim neque, facilisis eu justo a, dictum dictum augue. Cras quis ipsum iaculis sem tempor sodales. Donec tincidunt tincidunt neque, sed interdum ipsum porttitor ut. Curabitur dignissim, arcu at vulputate volutpat, diam velit varius metus, eget pharetra magna purus nec tellus. Vivamus purus lectus, bibendum nec arcu ultrices, eleifend eleifend nisi. Suspendisse in sollicitudin magna. Phasellus scelerisque neque ac est suscipit accumsan. Cras a luctus ante. </p>
+        <hr>
+        <img src="{{ url_for('static', filename='comment.svg') }}" alt="Comment">
     </div>
 </div>
 {% endblock %}

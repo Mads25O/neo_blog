@@ -1,38 +1,72 @@
-.page-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-    width:10%;
-    border: 1px solid black;
-}
-
 body {
     background-image: url(stars.jpg);
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    font-family: 'JetBrains Mono', monospace;
-    color: white;
-}
-
-p {
-    font-family: 'Press Start 2P', system-ui;
-    color: white;
-}
-
-.outer {
-    width: 1000px;
-    height: 700px;
+.page-container {
+    width: 90vh;
+    height: 80vh;
     margin: 50px auto;
     /* background-image: url(https://tubbywubbyponywaifu.neocities.org/homebg.gif); */
     background-color: black;
     border-color: #8261fa;
     border-style: Solid;
-    /* border-radius: 10px;
-    border-width: 6px; */
+    border-radius: 10px;
+    border-width: 6px;
     overflow: hidden;
+}
+
+.post {
+    border-color: #ffffff;
+    border-style: Solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post h1 {
+    border-color: #838383;
+    border-style: Solid;
+    border-width: 3px;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 1.4vh;
+}
+
+.post p {
+    border-color: #838383;
+    border-style: Solid;
+    border-width: 3px;
+    font-family: 'Press Start 2P', system-ui;
+    color: white;
+    font-size: 0.8vh;
+}
+
+.post img {
+    max-width: 1.7vh;
+    max-height: 1.7vh;
+    color: #8261fa;
+    margin-left: 2.2vh;
+    margin-right: 2.2vh;
+    margin-bottom: 1vh;
+}
+
+.post hr {
+    margin-top: 0;
+    margin-bottom: 1vh;
+    color: rgb(88, 88, 88);
+    width: 40vh;
+}
+
+.left {
+    align-items: flex-start;
+    margin-right: 50%;
+}
+
+.right {
+    align-items: flex-end;
+    margin-left: 50%;
 }
 
 .top-bar {
